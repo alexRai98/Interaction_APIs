@@ -6,14 +6,14 @@ GEM
       ruby2_keywords (~> 0.0.1)
     nyancat (0.2.1)
       gserver (~> 0)
-    rack (2.2.2)
-    rack-protection (2.0.8.1)
+    rack (2.2.3)
+    rack-protection (2.2.0)
       rack
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+      rack (~> 2.2)
+      rack-protection (= 2.2.0)
       tilt (~> 2.0)
     text-hyphen (1.4.1)
     textstat (0.1.6)
@@ -25,7 +25,7 @@ PLATFORMS
 
 DEPENDENCIES
   nyancat (~> 0.2.1)
-  sinatra (~> 2.0, >= 2.0.8.1)
+  sinatra (~> 2.2)
   textstat (~> 0.1.6)
 
 BUNDLED WITH
